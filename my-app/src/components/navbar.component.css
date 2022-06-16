@@ -1,0 +1,77 @@
+body {
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;;
+}
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
+.justify-right {
+    justify-content: flex-end;
+    margin-right: 2%;
+}
+
+.navbar {
+    z-index: 2;
+    padding-right: 5vw;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    font-family: monospace;
+    box-shadow: 0px 2px 10px black;
+}
+
+.navbar-link {
+    font-size: 1.25vw;
+    display: flex;
+    text-decoration: none;
+    color: gray;
+    font-weight: bold;
+    cursor: pointer;
+    text-align: center;
+    /* align-self: flex-end; */
+    /* align-content: flex-end; */
+    /* align-; */
+    /* align-content: center; */
+}
+
+.navbar-link:hover {
+    color: grey;
+}
+
+.nav-app-head {
+    background-color: black;
+    float: right;
+    margin: auto;
+    color: white;
+    margin-left: 10px;
+}
+
+.nav-account {
+    margin-left: auto;
+    display: block;
+    float: right;
+}
+
+.searchBar {
+    font-size: 1.25vw;
+    border: none;
+    background-color: whitesmoke;
+    width: auto;
+    border-radius: 10px;
+    padding: 0.5vw 1vw;
+}
+
+.login-button {
+    padding: 100px;
+}
+
+.navbar-account-select > option {
+    cursor: pointer;
+    background-color: whitesmoke;
+    color: black;
+}

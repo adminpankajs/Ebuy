@@ -1,0 +1,56 @@
+/* @import url('../../public/images/brand-logo.jpeg'); */
+.register_form {
+    background-color: white;
+    width: 40vw;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    /* align-self: center;
+    align-items: center;
+    align-content: center; */
+    /* border: 1px solid black; */
+    /* margin: auto; */
+    /* margin-top: 2vw; */
+    box-shadow: 0px 0px 15px grey;
+    font-family: monospace;
+    font-size: 1.3vw;
+}
+
+.register_form_label > input {
+    width: 15vw;
+    box-sizing: border-box;
+}
+.register_form_label > select {
+    width: 15vw;
+    box-sizing: border-box;
+    
+}
+
+.black-button {
+    margin: 10px;
+    font-size: 2vw;
+    background-color: black;
+    color: white;
+    box-shadow: 0px 0px 0px 0px grey;
+    border-radius: 2vw;
+    border: none;
+}
+
+.register_form_label {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#register-page {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    background-size: 25vw;
+    background-image: url("../assets/images/brand-logo.jpeg");
+}

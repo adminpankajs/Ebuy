@@ -1,0 +1,10 @@
+.tv-category-main {
+    display: flex;
+    border: 10px solid red;
+    height: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}

@@ -1,0 +1,14 @@
+.viewCart-img {
+    width: 10%;
+}
+
+.viewCart-product {
+    display: flex;
+    flex-direction: row;
+}
+
+.viewCart-product > div {
+    width: 20%;
+    margin: auto;
+    margin-left: 5%;
+}
