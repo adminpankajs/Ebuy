@@ -82,7 +82,7 @@ export default function StaffRegister() {
                     <form style={{textAlign: "center", padding: "30px"}} onSubmit={handleSubmit}>
                         <label className="register_form_label">
                             Email :
-                            <input type={"text"} placeholder="Shivam@mern.com" value={email}
+                            <input type={"text"} placeholder="Pankaj@mern.com" value={email}
                                 required onChange={(e) => setEmail(e.target.value)} 
                             />
                         </label><br/>
@@ -94,7 +94,7 @@ export default function StaffRegister() {
                         </label><br/>
                         <label className="register_form_label">
                             Name :
-                            <input type={"text"} placeholder="Shivam" value={name}
+                            <input type={"text"} placeholder="Pankaj" value={name}
                                 required onChange={(e) => setName(e.target.value)} 
                             />
                         </label><br/>

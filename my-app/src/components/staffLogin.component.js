@@ -89,7 +89,7 @@ export default function StaffLogin() {
                         <form style={{textAlign: "center"}} onSubmit={handleSubmit}>
                             <label style={{display: "flex", flexDirection: "row", justifyContent: "space-between"}}>
                                 Email :
-                                <input type={"text"} placeholder="Shivam@mern.com" value={email}
+                                <input type={"text"} placeholder="Pankaj@mern.com" value={email}
                                     required ref={userRef} onChange={(e) => setEmail(e.target.value)} 
                                 />
                             </label>

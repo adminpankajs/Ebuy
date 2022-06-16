@@ -76,7 +76,7 @@ export default function StudentLogin() {
                         <form style={{textAlign: "center", padding: "30px"}} onSubmit={handleSubmit}>
                             <label style={{display: "flex", flexDirection: "row", justifyContent: "space-between"}}>
                                 Email :
-                                <input type={"text"} placeholder="Shivam@mern.com" value={email}
+                                <input type={"text"} placeholder="Pankaj@mern.com" value={email}
                                     required ref={userRef} onChange={(e) => setEmail(e.target.value)} 
                                 />
                             </label>
